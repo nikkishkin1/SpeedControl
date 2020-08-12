@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace SpeedControl.Models
+namespace SpeedControl_Core.Entities
 {
     /// <summary>
     /// Model of a request for data

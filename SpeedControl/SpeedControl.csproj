@@ -207,10 +207,7 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\DataRequest.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\MinMaxSpeedModel.cs" />
-    <Compile Include="Models\SpeedRegistrationNote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -267,7 +264,9 @@
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
@@ -283,6 +282,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpeedControl_BLL\SpeedControl_BLL.csproj">
+      <Project>{3a1f6eb7-1a1e-4b7f-a81f-54458510f245}</Project>
+      <Name>SpeedControl_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpeedControl_Core\SpeedControl_Core.csproj">
+      <Project>{1c4413ea-0e31-4029-a519-6aead2f2a620}</Project>
+      <Name>SpeedControl_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpeedControl_DAL\SpeedControl_DAL.csproj">
+      <Project>{765e3844-cbcc-4360-9eba-2283d8007548}</Project>
+      <Name>SpeedControl_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

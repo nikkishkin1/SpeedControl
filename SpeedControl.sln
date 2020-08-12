@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedControl", "SpeedControl\SpeedControl.csproj", "{9681467E-56FE-42A5-9B58-23E4645DE9A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedControl_DAL", "SpeedControl_DAL\SpeedControl_DAL.csproj", "{765E3844-CBCC-4360-9EBA-2283D8007548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedControl_BLL", "SpeedControl_BLL\SpeedControl_BLL.csproj", "{3A1F6EB7-1A1E-4B7F-A81F-54458510F245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedControl_Core", "SpeedControl_Core\SpeedControl_Core.csproj", "{1C4413EA-0E31-4029-A519-6AEAD2F2A620}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{9681467E-56FE-42A5-9B58-23E4645DE9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9681467E-56FE-42A5-9B58-23E4645DE9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9681467E-56FE-42A5-9B58-23E4645DE9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765E3844-CBCC-4360-9EBA-2283D8007548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765E3844-CBCC-4360-9EBA-2283D8007548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765E3844-CBCC-4360-9EBA-2283D8007548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765E3844-CBCC-4360-9EBA-2283D8007548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1F6EB7-1A1E-4B7F-A81F-54458510F245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1F6EB7-1A1E-4B7F-A81F-54458510F245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1F6EB7-1A1E-4B7F-A81F-54458510F245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1F6EB7-1A1E-4B7F-A81F-54458510F245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4413EA-0E31-4029-A519-6AEAD2F2A620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4413EA-0E31-4029-A519-6AEAD2F2A620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4413EA-0E31-4029-A519-6AEAD2F2A620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4413EA-0E31-4029-A519-6AEAD2F2A620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -60,3 +60,10 @@ C:\IBA\SpeedControl\SpeedControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xm
 C:\IBA\SpeedControl\SpeedControl\bin\System.Web.Http.Owin.xml
 C:\IBA\SpeedControl\SpeedControl\obj\Debug\SpeedControl.dll
 C:\IBA\SpeedControl\SpeedControl\obj\Debug\SpeedControl.pdb
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_BLL.dll
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_Core.dll
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_DAL.dll
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_BLL.pdb
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_Core.pdb
+C:\IBA\SpeedControl\SpeedControl\bin\SpeedControl_DAL.pdb
+C:\IBA\SpeedControl\SpeedControl\obj\Debug\SpeedControl.csprojResolveAssemblyReference.cache

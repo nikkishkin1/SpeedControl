@@ -1,0 +1,4 @@
+C:\IBA\SpeedControl\SpeedControl_Core\bin\Debug\SpeedControl_Core.dll
+C:\IBA\SpeedControl\SpeedControl_Core\bin\Debug\SpeedControl_Core.pdb
+C:\IBA\SpeedControl\SpeedControl_Core\obj\Debug\SpeedControl_Core.dll
+C:\IBA\SpeedControl\SpeedControl_Core\obj\Debug\SpeedControl_Core.pdb

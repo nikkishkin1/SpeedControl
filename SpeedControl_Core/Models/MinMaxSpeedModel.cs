@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using SpeedControl_Core.Entities;
 
-namespace SpeedControl.Models
+namespace SpeedControl_Core.Models
 {
     // Model containing information about registered notes with maximal and minimal speeds
     public class MinMaxSpeedModel

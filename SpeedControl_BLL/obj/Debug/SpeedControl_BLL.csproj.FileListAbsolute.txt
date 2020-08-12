@@ -1,0 +1,11 @@
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_BLL.dll
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_BLL.pdb
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_Core.dll
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_DAL.dll
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\Newtonsoft.Json.dll
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_Core.pdb
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\SpeedControl_DAL.pdb
+C:\IBA\SpeedControl\SpeedControl_BLL\bin\Debug\Newtonsoft.Json.xml
+C:\IBA\SpeedControl\SpeedControl_BLL\obj\Debug\SpeedControl_BLL.csprojResolveAssemblyReference.cache
+C:\IBA\SpeedControl\SpeedControl_BLL\obj\Debug\SpeedControl_BLL.dll
+C:\IBA\SpeedControl\SpeedControl_BLL\obj\Debug\SpeedControl_BLL.pdb

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.IO;
+﻿using System.Configuration;
 using System.Web.Http;
-using Newtonsoft.Json;
-using SpeedControl.Models;
+using SpeedControl_Core.Entities;
+using SpeedControl_Core.Interfaces;
+using SpeedControl_DAL;
 
 namespace SpeedControl.Controllers
 {
@@ -17,22 +15,16 @@ namespace SpeedControl.Controllers
         private readonly string SPEED_REGISTRATION_DATA_FILE_PATH =
             ConfigurationManager.AppSettings[SPEED_REGISTRATION_DATA_FILE_PATH_KEY];
 
+        private readonly ISpeedNotesRepository _speedNotesRepository;
+
+        public SaveNewSpeedController()
+        {
+            _speedNotesRepository = new SpeedNotesRepository();
+        }
+
         public IHttpActionResult Post(SpeedRegistrationNote model)
         {
-            // Read from file.
-            string fileContent = File.ReadAllText(SPEED_REGISTRATION_DATA_FILE_PATH);
-
-            // Deserialize array of SpeedRegistrationNote objects
-            SpeedRegistrationNote[] notes = JsonConvert.DeserializeObject<SpeedRegistrationNote[]>(fileContent);
-
-            // Add new object to the deserialized array
-            List<SpeedRegistrationNote> notesList = new List<SpeedRegistrationNote>(notes) { model };
-
-            // Serialize array with the added element
-            String json = JsonConvert.SerializeObject(notesList.ToArray());
-
-            // Save array in the same file
-            File.WriteAllText(SPEED_REGISTRATION_DATA_FILE_PATH, json);
+            _speedNotesRepository.SaveSpeedRegistrationNote(model);
 
             return Ok();
         }
