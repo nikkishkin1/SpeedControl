@@ -1,0 +1,41 @@
+﻿<form action="~/api/SpeedLimitViolations">
+    Speed limit:<br>
+    <input name="limit" type="number"><br>
+    Date:<br>
+    <input name="date" type="date"><br>
+    <input type="submit" value="Get limit exceeding speed notes">
+</form>
+
+<br>
+
+<form action="~/api/MinMaxSpeed">
+    Date:<br>
+    <input name="date" type="date"><br>
+    <input type="submit" value="Get min and max speed">
+</form>
+
+<br>
+
+<form action="~/api/DataRequest">
+    <input type="submit" value="Get data requests">
+</form>
+
+<br>
+
+<form action="~/api/Account/SetPassword" method="POST">
+    <input type="password" name="newpassword">
+    <input type="password" name="confirmpassword">
+    <input type="submit" value="Set password">
+</form>
+
+<br>
+
+<form action="~/api/SaveNewSpeed" method="POST">
+    Speed:<br>
+    <input name="speed" type="number"><br>
+    License plate:<br>
+    <input name="licensePlate" type="text"><br>
+    Date and time:<br>
+    <input name="registrationTime" type="datetime"><br>
+    <input type="submit" value="Save speed">
+</form>

@@ -1,0 +1,6 @@
+namespace SpeedControl.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
